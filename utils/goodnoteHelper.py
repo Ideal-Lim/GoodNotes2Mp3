@@ -7,7 +7,7 @@ import shutil
 import ray
 
 
-def convert_goodnotes_to_mp3(goodnote_file, output_dir = "/tmp"):
+def convert_goodnotes_to_mp3(goodnote_file, output_dir = None):
     """
     Convert goodnote file to MP3
     1. Goodnote -> Zip
