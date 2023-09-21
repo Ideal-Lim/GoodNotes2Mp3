@@ -14,7 +14,7 @@ def convert_goodnotes_to_mp3(goodnote_file, output_dir = "/tmp"):
     2. Zip -> MP4
     3. MP4 -> MP3
     """
-    with NamedTemporaryFile(dir='/tmp', suffix='.zip') as f:
+    with NamedTemporaryFile(dir='.', suffix='.zip') as f:
         with st.status("Converting to mp3...", expanded=True) as status:
             f.write(goodnote_file.getbuffer())
             if output_dir:
