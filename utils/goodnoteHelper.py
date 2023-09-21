@@ -62,7 +62,9 @@ def convert_goodnotes_to_mp3(goodnote_file, output_dir = None):
             _delete_non_mp3_files(output_dir)
 
             shutil.make_archive(goodnote_file.name.replace(".goodnotes", ""), "zip", output_dir)
+            
             shutil.rmtree(output_dir)
+            
             status.update(label="Convert Complete!", state="complete", expanded=True)
 
     return output_dir
