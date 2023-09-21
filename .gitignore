@@ -1,0 +1,84 @@
+utils/streamlitHelper.py
+utils/tkDirSelector.py
+
+# 개발 환경 파일
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.user
+*.suo
+*.cache/
+*.log
+.DS_Store
+*.zip
+
+# 환경/편집기 설정 파일
+*.suo
+*.user
+*.suo
+*.suo
+*.sw?
+*.swp
+*.log
+*.tmp
+.vscode/
+.idea/
+.DS_Store
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# 패키지 관리자 디렉토리
+node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn.lock
+package-lock.json
+
+# Python 가상 환경
+venv/
+__pycache__/
+*.pyc
+
+# 로그 및 캐시 파일
+logs/
+*.log
+*.logs/
+*.cache/
+
+# 테스트 및 커버리지 관련
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# 테스트 환경
+/.venv
+/nose-logs/
+/nosehtmloutput/
+/.tox/
+
+# Jupyter Notebook 관련 파일
+.ipynb_checkpoints/
+
+# 에디터 프로젝트 설정 파일
+.editorconfig
+*.sublime-project
+*.sublime-workspace
+.svn
+
+# OS 생성 파일
+Icon?
+ehthumbs.db
+Thumbs.db
